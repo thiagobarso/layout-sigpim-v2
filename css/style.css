@@ -1,0 +1,165 @@
+*{		
+	font-family: OpenSansRegular;
+	box-sizing: border-box;
+	color: white;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;	
+	height: 100%;	
+}
+
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+#wraper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+#wraper > div {
+   padding-bottom: 500em;
+   margin-bottom: -500em;
+}
+
+/*class navSuperior*/
+
+.navSuperior{	
+	width: 100%;
+	height: 50px;
+	background-color: #3c8dbc;
+	display: block;	
+}
+
+.navSuperior > .logo {
+	width: 12%;
+	height: 100%;
+	background-color: #367fa9;
+	float: left;
+}
+
+.navSuperior > .logo > p{
+	text-align: center;	
+}
+
+.navSuperior > .logo > p > span{
+	font-weight: bold;
+}
+
+
+/*class menuLateral*/
+
+.menuLateral{			
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 50px;*/
+	float: left;
+	width: 12%;
+	min-height: 100%;	
+	background-color: #1e282c;	
+
+}
+
+.menuLateral > div{
+	display: inline-block;
+}
+
+.menuLateral > div > img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 15px 5px 5px 10px;
+}
+
+.menuLateral > div > p{
+	float: left;
+	padding: 0;
+	margin: 17px 10px 0px 5px;
+	font-weight: bold;
+}
+
+.menuLateral > div > span{	
+	font-size: 12px;
+	text-align: left;
+	padding:5px 5px;	
+	float: left;
+}
+
+.menuLateral > span{
+	display: block;
+	color: #4b646f;
+    background: #1a2226;
+    padding: 10px 20px;
+    font-size: 12px;    
+}
+
+.menuLateral > ul{	
+	list-style: none;
+	padding: 0 10px;
+	margin: 10px 0px;
+}
+
+.menuLateral > ul > li{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px;		
+}
+
+.menuLateral > ul > li:hover{	
+	background-color: #232E33;
+}
+
+.menuLateral > ul > li > a{
+	font-size: 12px;
+	list-style: none;
+	text-decoration: none;
+	color: white;	
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*Conteudo*/
+
+.boxConteudo{	
+	overflow: auto;	
+	margin-left: -4px;
+	padding: 0;
+	margin: 0;
+}
+
+.conteudo{
+	margin: 5px;
+	float: left;
+	width: 300px;
+	height: 300px;
+	background-color: #232E33;	
+	border: 1px solid red;
+}
+
+.clear{
+	clear: both;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.footer{	
+	width: 100%;
+	height: 5%;
+	background-color: black;	
+	position: absolute;
+	
+}
+
+.footer > p {
+	color: white;
+	text-align: center;
+	padding-top: 5;
+}
